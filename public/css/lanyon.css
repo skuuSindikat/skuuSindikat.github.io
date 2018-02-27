@@ -404,7 +404,7 @@ a.sidebar-nav-item:focus {
 .pagination-item {
   display: block;
   padding: 1rem;
-  border: 1px solid #eee;
+  border: 0px solid #eee;
 }
 .pagination-item:first-child {
   margin-bottom: -1px;
@@ -612,4 +612,12 @@ input[type="text"] {
 
 a, a:active, a:focus {
    outline: none;
+}
+
+/* mua */
+.center {
+    margin-right: auto;
+    width: 33%;
+    border: 0px solid green;
+    padding: 0px;
 }
