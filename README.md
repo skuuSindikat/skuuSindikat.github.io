@@ -1,0 +1,1 @@
+# skuuSindikat.github.io
