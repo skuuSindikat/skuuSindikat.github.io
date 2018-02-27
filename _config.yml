@@ -10,18 +10,18 @@ permalink:        pretty
 title:            'SKUU'
 tagline:          ''
 description:      'Sindikat SKUU'
-url:              https://skuusindikat.github.io/
+url:              https://skuuSindikat.github.io/
 
 author:
   name:           'author'
-  url:            https://skuusindikat.github.io/
+  url:            https://skuuSindikat.github.io/
 
 paginate:         7
 
 
 prose:
   rooturl: '_posts'
-  siteurl: 'https://skuusindikat.github.io/'
+  siteurl: 'https://skuuSindikat.github.io/'
   media: 'media'
   ignore:
     - index.md
