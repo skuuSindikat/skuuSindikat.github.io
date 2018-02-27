@@ -20,7 +20,7 @@ paginate:         3
 
 
 prose:
-
+  rooturl: ''
   siteurl: 'https://skuuSindikat.github.io/'
   media: 'media'
   ignore:

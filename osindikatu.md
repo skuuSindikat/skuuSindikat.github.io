@@ -26,3 +26,5 @@ Sindikat kulturnih in umetniških ustvarjalcev RTV Slovenije se določi kot repr
 ### Obrazložitev
 
 Sindikat kulturnih in umetniških ustvarjalcev RTV Slovenije je z vlogo z dne 20.12.2002 Ministrstvu za delo, družino in socialne zadeve posredoval zahtevo za določitev reprezentativnosti sindikata v radiotelevizijski dejavnosti.
+
+![]({{site.baseurl}}/media/logo.svg)
