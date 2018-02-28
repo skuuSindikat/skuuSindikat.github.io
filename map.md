@@ -6,7 +6,7 @@ published: true
 
 
 <div class="posts" style="padding-bottom: 40px;">
-    <!-- <h1 class="post-title">Blogmap</h1> -->
+
 
   {% for post in site.posts %}
 
@@ -14,33 +14,11 @@ published: true
     <span class="post-date" style="display:inline-block; width:60px; margin:auto; padding:0; font-size:10px;">{{ post.date | date: "%-d. %-m. %Y" }}</span>
 
    <!-- <span class="post-date" style="display:inline-block; width:60px; margin:auto; padding:0; font-size:10px;">{{ post.date | date_to_string }}</span>  -->
-   <a href="{{ site.url }}{{ post.url }}"/>{{ post.title }}</a>
+   <a href="{{ site.url }}{{ post.url }}"/> {{ post.title }} </a>
 
    <br>
    
   {% endfor %}
   
 </div>
-<!--
-   <id>{{ site.url }}{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
- </entry> 
 
-
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
- 
- -->
