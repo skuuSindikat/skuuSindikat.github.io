@@ -13,7 +13,7 @@ description:      'Sindikat SKUU'
 url:              https://skuuSindikat.github.io/
 
 author:
-  name:           'author'
+  name:           'skuuSindikat'
   url:            https://skuuSindikat.github.io/
 
 paginate:         3
@@ -21,7 +21,7 @@ paginate:         3
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://skuuSindikat.github.io/'
+  siteurl: 'https://skuuSindikat.github.io/'
   media: 'media'
   ignore:
     - index.md
