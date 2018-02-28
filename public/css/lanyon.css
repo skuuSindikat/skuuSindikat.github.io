@@ -39,19 +39,38 @@ html,
 body {
     overflow-x: hidden;
     background-image: url("/public/mozillaGrain.png");
+      color: #111111;
     
 } 
 
-html {
+html, table, th, tr, td {
   font-family: "PT Serif", Georgia, "Times New Roman", serif;
+    color: #111111;
+      font-weight: 400;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  color: #313131;
+  color: #111111;
+  /* color: #062d79; */
   letter-spacing: -.025rem;
+  
+  text-transform: uppercase;
 }
+
+/* override 
+
+html {
+  font-family: Georgia, serif;
+  
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, serif;
+}
+
+*/
 
 
 /*
@@ -325,7 +344,7 @@ a.sidebar-nav-item:focus {
 
 /*
  * Posts and pages
- *
+ *lanstv
  * Each post is wrapped in `.post` and is used on default and post layouts. Each
  * page is wrapped in `.page` and is only used on the page layout.
  */
@@ -335,18 +354,21 @@ a.sidebar-nav-item:focus {
   margin-bottom: 4em;
 }
 
-/* Blog post or page title */
+/* Blog post or page title 
 .page-title,
 .post-title,
 .post-title a {
   color: #303030;
   
 }
+
+*/
+
 .page-title,
 .post-title {
   margin-top: 0;
   
-  
+  text-transform: uppercase;
 }
 
 /* Meta data line below post title */
@@ -618,9 +640,9 @@ a, a:active, a:focus {
 .center {
     margin: 0px;
     margin-right: auto;
-    /* margin-left: -35px; */
+    margin-left: -15px; 
     width: 60%;
     border: 0px solid green;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 
 }

@@ -68,7 +68,8 @@ body {
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #268bd2;
+  color: #111111;
+  /* color: #062d79; */
   text-decoration: none;
 }
 /* `:focus` is linked to `:hover` for basic accessibility */
@@ -87,6 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
   font-size: 2rem;
+  font-size: 2.5rem;
 }
 h2 {
   margin-top: 1rem;
@@ -130,8 +132,18 @@ hr {
   position: relative;
   margin: 1.5rem 0;
   border: 0;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #fff;
+  border-top: 1px solid #555;
+  border-bottom: 1px solid #555;
+}
+
+
+/* override */
+hr {
+  border:none;
+  border-top:2px dotted #111;
+  height:3px;
+  margin: 1rem 0;
+
 }
 
 abbr {
@@ -200,7 +212,7 @@ pre code {
 blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
-  color: #7a7a7a;
+  color: #7a7a7a; 
   border-left: .25rem solid #e5e5e5;
 }
 blockquote p:last-child {
@@ -318,12 +330,15 @@ tbody tr:nth-child(odd) th {
   margin-bottom: 4em;
 }
 
-/* Blog post or page title */
+/* Blog post or page title 
 .page-title,
 .post-title,
 .post-title a {
   color: #303030;
 }
+
+*/
+
 .page-title,
 .post-title {
   margin-top: 0;
