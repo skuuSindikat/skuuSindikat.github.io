@@ -1,6 +1,7 @@
 ---
-layout: default
-title: Blogmap
+layout: page
+title: Novice
+published: true
 ---
 
 
