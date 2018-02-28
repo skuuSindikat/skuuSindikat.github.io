@@ -1,5 +1,5 @@
 prose:
-  siteurl: 'http://skuuSindikat.github.io/'
+  siteurl: 'https://skuuSindikat.github.io/'
   media: 'media'
   ignore:
     - index.md
