@@ -575,17 +575,17 @@ a.pagination-item:hover {
 
 .brontofooter {
 
-  color: black; 
+  color: #3680d2; 
   text-align: center;
   padding:        1rem;
   padding-bottom: 6rem;
   padding-top:    4rem;
   width: 100%;
-  background-color: #fcfcfc;
-  background-color: #ececec;
+  background-color: #2b2b2b;
 
 
-  border-top: dotted #cccccc 1px;  
+
+  border-top: dotted #ffffff 1px;  
   
   background-image: url("/public/mozillaGrain.png");
 
@@ -617,7 +617,8 @@ a, a:active, a:focus {
 /* mua */
 .center {
     margin-right: auto;
-    width: 33%;
+    width: 66%;
     border: 0px solid green;
-    padding: 0px;
+    padding-bottom: 20px;
+    margin: 0px;
 }
