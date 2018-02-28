@@ -616,9 +616,11 @@ a, a:active, a:focus {
 
 /* mua */
 .center {
+    margin: 0px;
     margin-right: auto;
-    width: 66%;
+    /* margin-left: -35px; */
+    width: 60%;
     border: 0px solid green;
     padding-bottom: 20px;
-    margin: 0px;
+
 }
