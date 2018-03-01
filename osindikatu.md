@@ -3,6 +3,19 @@ layout: page
 title: O sindikatu
 published: true
 ---
+
+## Tabela test
+
+| Testna        | tabelca       | 123   |
+| :------------ |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+
 ## Poslanstvo
 
 Sindikat kot oblika združevanja kulturno umetniških delavcev na Radioteleviziji Slovenija je s svojim delom in aktivnostmi začel pred 15 leti. V tem času je v skladu s programskimi izhodišči, prejetimi na ustanovni skupščini, pomembno prispeval k uveljavitvi programskih in izvedbenih poklicev, še zlasti pa pri kolektivnem dogovarjanju z delodajalcem.
@@ -31,13 +44,4 @@ Sindikat kulturnih in umetniških ustvarjalcev RTV Slovenije se določi kot repr
 
 Sindikat kulturnih in umetniških ustvarjalcev RTV Slovenije je z vlogo z dne 20.12.2002 Ministrstvu za delo, družino in socialne zadeve posredoval zahtevo za določitev reprezentativnosti sindikata v radiotelevizijski dejavnosti.
 
-### Tabela test
 
-| Testna        | tabelca       | 123   |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
