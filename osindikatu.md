@@ -46,6 +46,6 @@ Sindikat kulturnih in umetniških ustvarjalcev RTV Slovenije je z vlogo z dne 20
 
 ## Predlog za novi logotip
 
-![](https://skuusindikat.github.io/public/logo.Final.svg)
+![](/public/logo.Final.svg)
 
 
