@@ -233,9 +233,13 @@ img {
 }
 
 iframe {
-  display: block;
-  margin: 0 0 1rem;
+  /* display: block;
+  margin: 0 0 1rem; */
+  overflow: hidden;
   border-radius: 5px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
 }
 
 /* Tables */

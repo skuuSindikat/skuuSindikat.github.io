@@ -15,9 +15,10 @@ published: true
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
-## Youtube test
+## Video test
 
-<iframe width="720" height="418" src="https://www.youtube.com/embed/qJEWOTZnFeg?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="720" height="410" frameborder="0" src="https://www.youtube.com/embed/SkgTxQm9DWM?rel=0;showinfo=0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 
 
 ## Poslanstvo
