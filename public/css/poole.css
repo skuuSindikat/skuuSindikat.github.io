@@ -232,6 +232,12 @@ img {
   border-radius: 5px;
 }
 
+iframe {
+  display: block;
+  margin: 0 0 1rem;
+  border-radius: 5px;
+}
+
 /* Tables */
 table {
   margin-bottom: 1rem;
