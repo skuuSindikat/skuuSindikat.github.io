@@ -45,7 +45,7 @@ body {
 
 html, table, th, tr, td {
   font-family: "PT Serif", Georgia, "Times New Roman", serif;
-    color: #111111;
+    color: #333333;
       font-weight: 400;
 }
 
@@ -55,8 +55,17 @@ h1, h2, h3, h4, h5, h6 {
   color: #111111;
   /* color: #062d79; */
   letter-spacing: -.025rem;
-  
-  text-transform: uppercase;
+  /* color: #183062; */
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+h1 a {
+    color: #111111;
+
 }
 
 /* override 
@@ -597,20 +606,20 @@ a.pagination-item:hover {
 
 .brontofooter {
 
-  color: #3680d2; 
+  color: #111111; 
   text-align: center;
   padding:        1rem;
-  padding-bottom: 10rem;
-  padding-top:    4rem;
+  padding-bottom: 4rem;
+  padding-top:    2rem;
   width: 100%;
-  background-color: #101020;
-
-
-
-  border-top: dotted #ffffff 1px;  
-  
+  background-color: #353545;
+  border-top: dotted #ffffff 1px;    
   background-image: url("/public/mozillaGrain.png");
+  
+}
 
+.brontofooter a {
+    color: #000000;
 }
 
 /* this should apply to searchform only by bronto */
@@ -641,8 +650,25 @@ a, a:active, a:focus {
     margin: 0px;
     margin-right: auto;
     margin-left: -15px; 
-    width: 60%;
+    width:100%;
     border: 0px solid green;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    ;
+}
+
+.social {
+    vertical-align: middle;
+    margin: 0px;
+    margin-left: 5px;
+    display: inline;
+    max-width: 30px
 
 }
+
+.socialwrap {
+
+    margin: 0;
+
+}
+
+

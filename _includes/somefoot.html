@@ -1,17 +1,23 @@
 <div class="brontofooter">
-    
+
     {% assign pages_list = site.pages %}
     {% for node in pages_list %}
       {% if node.title != null %}
         {% if node.layout == "page" or node.layout == "mine" %}
-          <a style="color:#2f5ebf;" href="{{ node.url }}">{{ node.title }}</a> / 
+          <a href="{{ node.url }}">{{ node.title }}</a> | 
         {% endif %}
       {% endif %}
     {% endfor %}
 
      <!-- ročni linki -->
-     <a style="color:#2f5ebf;" href="https://prose.io/#skuuSindikat/skuuSindikat.github.io">Urejevalnik</a>
+     <a href="https://prose.io/#skuuSindikat/skuuSindikat.github.io">Urejevalnik</a> | 
+     
+     <!-- socialni mediji -->
 
-
+         
+        <a href="https://twitter.com/"><img src="/public/social/twit.svg" class="social"></a>
+        <a href="https://www.facebook.com/"><img src="/public/social/face.svg" class="social"></a>
+        <a href="https://www.youtube.com/"><img src="/public/social/tube.svg" class="social"></a>
+        
 
 </div>
