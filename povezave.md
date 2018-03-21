@@ -10,7 +10,7 @@ published: true
 
 ### Ministrstvo za kulturo 
 
-[http://www.kultura.gov.si](http://www.kultura.gov.si)
+[http://www.mk.gov.si/](http://www.mk.gov.si/)
 
 ### Vlada republike slovenije
 
